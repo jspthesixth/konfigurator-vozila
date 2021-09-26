@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+input,
+textarea {
+	margin: 0 5px 10px !important;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+.custom-row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+h6 {
+	margin-right: 10px;
+}
